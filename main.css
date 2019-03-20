@@ -1,0 +1,821 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+body
+{
+    font-family: "Bizon", sans-serif;
+}
+
+#home
+{
+    padding: 70px 60px 30px 40px;
+}
+
+/*overall header stuff*/
+#header
+{
+    background-image: url('2019Picture.jpg');
+    width:100%;
+    background-size:100%;
+    background-repeat: no-repeat;
+    color: #212020;
+    vertical-align: top;
+    padding: 80px 120px;
+    background-color: #d63927;
+	opacity: 0.85;
+}
+
+
+/* Battle of the Bands heading */
+#header h1
+{
+    color:#D0C90B;
+    font-size: 8vw;
+    margin-left: 30px;
+}
+
+#header h2
+{
+    color:#D0C90B;
+    font-size: 4vw; 
+}
+/* Logo */
+#header img
+{
+    border-radius: 8px;
+    display: inline-block;
+    width: 35%;
+}
+
+/* Add a dark background color with a little bit see-through */ 
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
+
+.navbar .navbar-brand
+{
+    text-decoration: underline;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+	
+
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: #d63927 !important;
+}
+
+/* Overall buttons */
+.allbuts
+{
+    padding: 0px 0px 10px 0px ;
+}
+
+
+/* each individual button */
+.Button .allbuts .btn-default 
+{
+    
+    font-size:16px;
+    text-align: center;
+    padding: 15px 10px 15px 10px;
+    border: 2px solid #2d2d30;
+    display: inline-block;
+    background-color: rgba(45,45,48, 0.7);
+    outline:none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    color: #f9ebab;
+}
+
+
+/* affect the button when you hover over it*/
+.Button .btn-default:hover
+{
+    background-color: #d63927;
+}
+
+/* for the timer */ 
+.timer
+{
+    font-size: 50px;
+    padding: 0px 10px 0px 15px;
+    padding-bottom: 7%;
+    text-align: center;
+    display: inline-block;
+    color: #f9ebab;
+}
+
+.timer .day 
+{
+    color: #f9ebab;;
+    display:inline-block;
+    padding:0px 20px 10px 10px;
+    position: absolute;
+    left:30%;
+}
+
+
+.timer .hour
+{
+    color: #f9ebab;
+    border-left: 2px solid #FFBD33;
+    border-right: 2px solid #FFBD33;
+    margin: 0px 0px 3px 0px;
+    height: 65%;
+    width: 12%;
+    display:inline-block;
+    padding:0px 10px 10px 10px;
+    position: absolute;
+    left:45%;
+}
+
+.timer .min
+{
+    color: #f9ebab;
+    display:inline-block;
+    padding:0px 10px 10px 10px;
+    position: absolute;
+    left:60%;
+}
+
+
+/* about division (full division)*/
+.aboutPage
+{
+    background-color: #E53D2A;
+    align-self: center;
+    padding: 20px 20px 20px 20px;
+    padding-bottom: 20px;
+}
+
+/* just the bordered area*/
+.aboutPage .col-md-8
+{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+}
+
+.aboutPage .col-md-8 h1
+{
+    color:#212020;
+}
+
+/* paragraphs inside the bordered area */
+.aboutPage .col-md-8 p
+{
+    font-family: 'Special Elite', cursive;
+    font-size: 18px;
+    text-align: left;
+    padding: 12px 10px 10px 10px;
+    color: #f9ebab;
+}
+
+/* FAQ full division */
+.faqPage
+{
+    background-color: #d63927;
+    padding-top: 20px;
+    align-self: center;
+    padding: 20px 20px 20px 10px;
+	
+}
+
+/* just the boredered area */
+.faqPage .col-md-8
+{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+}
+
+.faqPage .col-md-8 h1 
+{
+     color:#212020;
+}
+
+.faqPage .col-md-8 h3
+{
+     color:#FFBD33;
+}
+
+
+/* each individual list item in the FAQ page*/
+.faqPage .col-md-8 ul li
+{
+    color: #282828;
+    text-align: left;
+    list-style: none;
+    padding: 10px 0px 5px 0px;
+}
+
+.faqPage .col-md-8 .event li strong
+{
+    font-family: 'Bizon', sans-serif;
+    font-size:20px;
+    color:#FFBD33;
+}
+
+.faqPage .col-md-8 .event li
+{
+    font-family: 'Special Elite', cursive;
+    font-size: 18px;
+    color: #f9ebab;
+}
+
+.faqPage .col-md-8 .event .links li 
+{
+    list-style: circle;
+    text-decoration: underline;
+}
+
+iframe
+{
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+    display: block;
+}
+
+.faqPage .col-md-8 .event .links li a
+{
+    color: #f9ebab;
+}
+
+/* links in the event sectiion of the FAQ*/
+.faqPage .col-md-8 .event a
+{
+    color: #333333;
+}
+
+.faqPage .col-md-8 .audition li strong
+{
+    font-family: 'Bizon',sans-serif;
+    font-size:20px;
+    color:#FFBD33;
+}
+
+.faqPage .col-md-8 .audition li
+{
+    font-family: 'Special Elite', cursive;
+    font-size:18px;
+    color: #f9ebab;
+}
+
+.faqPage .col-md-8 .sponsor li strong
+{
+    font-family: 'Bizon', sans-serif;
+    font-size:20px;
+    color:#FFBD33;
+}
+
+.faqPage .col-md-8 .sponsor li 
+{
+    font-family: 'Special Elite', cursive;
+    font-size:18px;
+    color: #f9ebab;
+}
+
+.faqPage .col-md-8 .info li strong
+{
+    font-family: 'Bizon', sans-serif;
+    font-size:20px;
+    color:#FFBD33;
+}
+.faqPage .col-md-8 .info li 
+{
+    font-family: 'Special Elite', cursive;
+    font-size:18px;
+    color:#f9ebab;
+}
+.faqPage .col-md-8 .info li a
+{
+    text-decoration: underline;
+    font-size:16px;
+    color:#f9ebab;
+}
+
+/* Sponsor section of the page*/
+.sponsorPage
+{
+    background-color: #E53D2A;
+    align-self: center;
+    padding: 20px 20px 20px 20px;
+    padding-bottom: 20px;
+}
+
+/* just the bordered area*/
+.sponsorPage .col-md-8
+{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+}
+
+.sponsorPage .col-md-8 h1
+{
+    color:#212020;
+}
+
+.sponsorPage .col-md-8 img
+{
+    text-align:center;
+    display:inline-block;
+    padding:10px 10px 10px 10px;
+}
+
+.sponsorPage .col-md-8 .riverfest
+{
+    width:40%;
+}
+
+.creditPage
+{
+    background-color: #d63927;
+    padding-top: 20px;
+    align-self: center;
+    padding: 20px 20px 20px 10px;
+}
+
+/* just the boredered area */
+.creditPage .col-md-8
+{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+}
+
+.creditPage .col-md-8 h1 
+{
+     color:#212020;
+}
+
+.creditPage .col-md-8 h3
+{
+    color:#FFBD33;
+}
+
+.creditPage .col-md-8 li strong
+{
+    font-family: 'Bizon',sans-serif;
+    font-size:20px;
+    color:#FFBD33;
+}
+
+.creditPage .col-md-8 li
+{
+    font-family: 'Special Elite', cursive;
+    font-size:18px;
+    
+}
+
+.creditPage .col-md-8 ul li
+{
+    
+    color: #282828;
+    text-align: left;
+    padding: 10px 0px 5px 0px;
+}
+
+.creditPage .col-md-8 a
+{
+    text-decoration: underline;
+    color: #f9ebab;
+}
+
+/* contact section of the page */ 
+.contactPage
+{
+    background-color: #E53D2A;
+    padding-top: 20px;
+    align-self: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.contactPage h3
+{
+    color:#212020;  
+}
+
+.contactPage p
+{
+    text-decoration: underline;
+    font-size:20px;
+    color:#d5d5d5;
+}
+
+/* social media subdivision (only the links) */
+.contactPage .fa 
+{
+  justify-content: center;
+  font-size:25px;
+  color: #d5d5d5;
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.contactPage .fa:hover {
+    background-color: #212020;
+}
+
+
+@media only screen and (max-width: 1300px) and (min-width: 1027px)
+{
+    #header h1
+    {
+        position: absolute;
+        top:0%;
+        left:0%;
+        right:0%;
+        padding: 0px 35px 60px 20px;
+    }
+    
+    #header .date h2
+    {
+        padding:200px 20px 0px 20px; 
+    }
+    
+    .allbuts
+    {
+        padding: 0px 60px 0px 60px;
+        position: relative;
+        align-self: center;
+    }
+    .Button .allbuts .btn-default 
+    {
+        position:relative;
+        font-size:17px;
+        text-align: center;
+        padding: 10px 20px;
+        border: 2px solid #2d2d30;
+        display: block;
+    }
+    
+    .timer
+    {
+        padding: 5px 10px 70px 30px;
+    }
+    
+}
+
+@media only screen and (max-width: 1026px) and (min-width: 771px)
+{
+    #header
+    {
+        padding:80px;
+    }
+    #header h1
+    {
+        position: absolute;
+        top:0%;
+        left:0%;
+        padding: 0px 50px 0px 20px;
+    }
+    
+    #header .date h2
+    {
+        position: absolute;
+        top:180%;
+        left:30%;
+    }
+    
+    .allbuts
+    {
+        padding: 170px 10px 0px 10px;
+    }
+    .Button .allbuts .btn-default 
+    {
+        font-size:15px;
+        text-align: center;
+        padding: 10px 10px 10px;
+        display: block;
+    }
+    
+    .timer
+    {
+        padding: 0px 10px 80px 10px;
+    }
+    
+    .timer .day 
+    {
+        display:inline-block;
+        padding:0px 0px 10px 10px;
+        position: absolute;
+        left:25%;
+    }
+
+
+    .timer .hour
+    {
+        margin: 0px 2px 3px 0px;
+        height: 50%;
+        width: 12%;
+        border: none;
+    }
+    
+    iframe
+    {
+        padding: 10px 0px 10px 0px;
+        display:block;
+        width:90%;
+    }
+
+}
+@media only screen and (max-width: 770px) and (min-width: 485px)
+{   
+    #header h1
+    {
+        position:absolute;
+        top:0%;
+        left:0%;
+    }
+    
+    #header .date h2
+    {
+        
+        position: absolute;
+        top:150%;
+        left:25%;
+    }
+    
+    .allbuts
+    {
+        padding: 140px 0px 20px 20px;
+    }
+    .Button .allbuts .btn-default 
+    {
+        font-size:14px;
+        text-align: center;
+        padding: 10px 5px 10px 4px;
+        display: block;
+    }
+    
+    .timer
+    {
+        padding: 20px 0px 80px 0px;
+    }
+    
+    .timer .day 
+    {
+        display:inline-block;
+        padding:0px 0px 20px 0px;
+        position: absolute;
+        left:15%;
+    }
+
+
+    .timer .hour
+    {
+        border:none;
+        margin: 0px 2px 3px 0px;
+        height: 50%;
+        width: 12%;
+        padding:0px 0px 20px 0px;
+        position: absolute;
+        left:45%;
+    }
+    .timer .min
+    {
+        position:absolute;
+        left:65%;
+    }
+
+}
+@media only screen and (max-width: 484px) and (min-width: 321px)
+{  
+    #header
+    {
+        padding: 30px 50px 0px 0px;
+    }
+    #header h1
+    {
+        font-size:60px;
+        padding: 15px 0px 0px 0px;
+        position:absolute;
+        top:15%;
+        left:0%;
+    }
+    
+        
+    #header .date h2
+    {   
+        font-size:6vw;
+        position: absolute;
+        top:170%;
+        left:25%;
+    }
+    
+    .allbuts
+    {
+        padding: 190px 20px 10px 70px;
+    }
+    .Button .allbuts .btn-default 
+    {
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+        display: block;
+    }
+    
+    .timer
+    {
+        padding: 20px 400px 150px 0px;
+        
+    }
+    
+    .timer .day 
+    {
+        display:inline-block;
+        padding:0px 0px 20px 0px;
+        position: absolute;
+        left:10%;
+    }
+
+
+    .timer .hour
+    {
+        margin: 0px 2px 3px 0px;
+        border:none;
+        padding:0px 0px 30px 0px;
+        position: absolute;
+        left:85%;
+    }
+    .timer .min
+    {
+        position:absolute;
+        left:45%;
+    }
+    
+    iframe
+    {
+       padding: 20px 20px 20px 0px;
+        width:96%;
+    }
+    
+     .navbar 
+    {
+        font-size: 11px !important;
+        letter-spacing: 1px;
+		
+		overflow: hidden;
+  background-color: #333;
+    }
+    
+    .navbar .link
+    {
+        padding: 10px 50px 0px 10px;
+        font-size: 14px;
+        position:absolute;
+        top:0%;
+    }
+    
+    .sponsorPage .col-md-8 .riverfest
+    {
+        width:70%;
+    }
+    
+}
+    @media only screen and (max-width: 326px) and (min-width: 0px)
+    {
+    #header
+    {
+        background-size: contain;
+        padding: 10px 0px 0px 0px;
+    }
+    #header h1
+    {
+        font-size:40px;
+        padding: 15px 0px 0px 0px;
+        position:absolute;
+        top:0%;
+        right:10%;
+    }
+        
+    #header .date h2
+    {
+        font-size:6vw;
+        position: absolute;
+        top:120%;
+        left:22%;
+    }
+    
+    .allbuts
+    {
+        padding: 125px 5px 10px 5px;
+    }
+    .Button .allbuts .btn-default 
+    {   
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+        display: block;
+    }
+    
+    .timer
+    {
+        font-size: 30px;
+        padding: 20px 450px 150px 0px;
+        
+    }
+    
+    .timer .day 
+    {
+        display:inline-block;
+        padding:0px 0px 20px 0px;
+        position: absolute;
+        left:7%;
+    }
+
+
+    .timer .hour
+    {
+        margin: 0px 2px 3px 0px;
+        border:none;
+        padding:0px 0px 30px 0px;
+        position: absolute;
+        left:28%;
+    }
+    .timer .min
+    {
+        position:absolute;
+        left:42%;
+    }
+    
+    iframe
+    {
+       padding: 20px 10px 20px 0px;
+       width:200px;
+       height:300px;
+    }
+    
+    .navbar 
+    {
+        letter-spacing: 1px;
+    }
+    
+    .navbar .navbar-header .link
+    {
+        padding: 0px 50px 0px 10px;
+        font-size: 10px;
+        position:absolute;
+        top:0%;
+    }
+    
+    .sponsorPage .col-md-8 .riverfest
+    {
+        width:100%;
+    }
+    
+        
+    }
+
+
